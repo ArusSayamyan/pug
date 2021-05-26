@@ -1,0 +1,10 @@
+include ../mixins/mixins.pug
+.page3_container
+    .page3Title
+        h1 новые поступления
+    .page3Items
+        - var n = 0;
+        while n < 8
+            - ++n
+                +images
+
