@@ -128,4 +128,23 @@
       }
     }
   }
+  .page3_container {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 100px;
+    .page3Title {
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    .page3Items {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      justify-items: center;
+      row-gap: 30px;
+
+    }
+   
+  }
+
 }
