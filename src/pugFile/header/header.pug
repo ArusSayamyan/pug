@@ -1,0 +1,11 @@
+- var list = ["Понравилось", "личный кабинет", "настройки"]
+header.header_container
+    ul.list_container
+        .pageLogo
+            li.title #[img(src='../img/PORTEN.svg' alt='title')]
+        .list_items
+            each item in list
+                li= item
+            li.bag #[img(src='../img/bx_bx-cart.svg' alt='title')]
+            li.search #[img(src='../img/Vector (1).svg' alt='title')]
+  

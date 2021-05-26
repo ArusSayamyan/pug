@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header_container {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: #fff;
+  padding: 20px; }
+  .header_container .list_container {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%; }
+    .header_container .list_container .list_items {
+      display: flex;
+      justify-content: space-between;
+      width: 30%; }
