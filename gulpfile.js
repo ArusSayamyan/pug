@@ -30,7 +30,6 @@ let path = {
     gulp          = require('gulp'),
     browsersync   = require('browser-sync').create(),
     // htmlmin       = require('gulp-htmlmin'),
-    // fileinclude   = require('gulp-file-include'),
     del           = require('del'),
     scss          = require('gulp-sass'),
     // autoprefixer  = require('gulp-autoprefixer'),

@@ -146,5 +146,25 @@
     }
    
   }
+  .footer_container {
+    padding: 30px 100px;
+    background-color: #0F0F0F;
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .footerItems {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      .footerItems img {
+        background-color: #0F0F0F;
+      }
+
+    }
+   
+  }
 
 }
