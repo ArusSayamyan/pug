@@ -1,16 +1,13 @@
+include ../mixins/mixins.pug
 .page2_container 
     .rowItems1
         .page2_item1
             h1 СЕЗОН 2020/21
-                mixin images 
-                    .img_container 
-                        img(src="../img/image.jpg", alt="oclock")
-                        h2 Louis XVI ATHOS
-                        span 165 000 руб.  
             .img_content
-                +images
-                +images
-                +images
+                - var n = 0;
+                while n < 3
+                    - ++n
+                        +images
         .page2_item2 
             .items
                 h1 Новая коллекция

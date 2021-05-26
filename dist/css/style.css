@@ -117,3 +117,17 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
       justify-items: center;
       row-gap: 30px; }
+  * .footer_container {
+    padding: 30px 100px;
+    background-color: #0F0F0F; }
+    * .footer_container h1 {
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff; }
+    * .footer_container .footerItems {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px; }
+      * .footer_container .footerItems .footerItems img {
+        background-color: #0F0F0F; }
