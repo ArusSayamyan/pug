@@ -102,7 +102,7 @@ function clean(params){
     return del(path.clean);
 }
 
-let watch =gulp.series(clean,views,imgmin,gulp.parallel(watchFile,server));
+let watch =gulp.series(clean,views,imgmin,sass,gulp.parallel(watchFile,server));
 
 
 
