@@ -21,7 +21,6 @@
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-flatten": "^0.4.0",
-    "gulp-htmlmin": "^5.0.1",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.1.0"
   },
